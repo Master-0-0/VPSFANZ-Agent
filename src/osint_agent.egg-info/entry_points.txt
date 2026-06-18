@@ -1,0 +1,2 @@
+[console_scripts]
+osint-agent = osint_agent.cli:app

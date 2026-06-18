@@ -1,0 +1,38 @@
+llm:
+  provider: deepseek
+  model: deepseek-chat
+  api_key: sk-2d4a2e704c0a40f4a8
+  providers:
+    openai:
+      api_key: ${OPENAI_API_KEY}
+      models:
+        - gpt-4o
+        - gpt-4o-mini
+    deepseek:
+      api_key: sk-2d4a2e704c0a40
+      models:
+        - deepseek-chat
+        - deepseek-reasoner
+    ollama:
+      base_url: http://localhost:11434/v1
+      api_key: ""
+      models:
+        - deepseek-r1:7b
+        - qwen2.5:7b
+
+runtime:
+  interval: 3
+  max_loops: 50
+  prompt_group: default
+
+tasks:
+  bootstrap:
+    timeout: 300
+  reason:
+    timeout: 300
+    max_intents: 3
+  explore:
+    timeout: 300
+
+store:
+  db_path: ~/.osint-agent/projects.db

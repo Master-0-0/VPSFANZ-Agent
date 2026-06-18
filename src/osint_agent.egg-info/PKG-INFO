@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: osint-agent
+Version: 0.1.0
+Summary: OSINT 情报查询 Agent — 基于黑板架构与 Fact-Intent Graph
+Requires-Python: >=3.8
+Requires-Dist: typer>=0.12
+Requires-Dist: openai>=1.0
+Requires-Dist: pydantic>=2.0
+Requires-Dist: pyyaml>=6.0
+Provides-Extra: tools
+Requires-Dist: duckduckgo_search>=5; extra == "tools"
+Requires-Dist: selectolax>=0.3; extra == "tools"
+Requires-Dist: python-whois>=0.8; extra == "tools"
+Requires-Dist: httpx>=0.24; extra == "tools"

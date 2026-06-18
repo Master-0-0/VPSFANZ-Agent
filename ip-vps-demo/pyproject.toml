@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipvps"
+version = "1.0.0"
+description = "IP/VPS 溯源工具集 — 基础信息收集 + 云厂商识别"
+requires-python = ">=3.8"
+dependencies = [
+    "typer>=0.9",
+    "requests",
+    "python-dotenv",
+    "playwright",
+]
+
+[project.scripts]
+ipvps = "cli:app"

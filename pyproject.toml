@@ -1,0 +1,28 @@
+[project]
+name = "osint-agent"
+version = "0.1.0"
+description = "OSINT 情报查询 Agent — 基于黑板架构与 Fact-Intent Graph"
+requires-python = ">=3.8"
+dependencies = [
+    "typer>=0.12",
+    "openai>=1.0",
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+]
+
+[project.scripts]
+osint-agent = "osint_agent.cli:app"
+vpsctl = "cli:app"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["cli"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["osint_agent*"]
