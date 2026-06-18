@@ -191,7 +191,8 @@ vpsctl pipeline 120.27.154.229 --step
 ```
 
 
-<img width="964" height="299" alt="image" src="https://github.com/user-attachments/assets/102cc0fb-6533-4235-b778-91e84e659d51" />
+<img width="1199" height="375" alt="image" src="https://github.com/user-attachments/assets/9356526a-04c6-4f1a-96fd-b3882852c360" />
+
 
 
 
