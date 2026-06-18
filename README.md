@@ -159,7 +159,8 @@ ipvps report list                   # 列出所有历史报告
 ipvps report view <report_id>       # 查看指定报告详情
 ipvps report delete <report_id>     # 删除指定报告
 ```
-<img width="1209" height="459" alt="image" src="https://github.com/user-attachments/assets/66984833-b31f-4fcf-8797-fedfcc6aeb82" />
+<img width="985" height="346" alt="image" src="https://github.com/user-attachments/assets/66512f1f-4624-430f-80a8-211c01eb6dbe" />
+
 
 ### vpsctl (统一入口)
 
