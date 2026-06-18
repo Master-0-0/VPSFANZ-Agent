@@ -193,8 +193,11 @@ vpsctl pipeline 120.27.154.229 --step
 ```
 python cli.py pipeline 120.27.154.229 --goal "找出安全相关人员情报"
 ```
-<img width="959" height="405" alt="image" src="https://github.com/user-attachments/assets/040e9b49-033c-4ba1-bad9-6e2480b000fd" />
-<img width="1850" height="875" alt="image" src="https://github.com/user-attachments/assets/73ee9779-eb49-444a-8e1d-93111e5325a9" />
+
+<img width="978" height="510" alt="image" src="https://github.com/user-attachments/assets/6fdcb22f-5984-474f-bde2-24a2760dcad2" />
+
+<img width="1885" height="891" alt="image" src="https://github.com/user-attachments/assets/21835d3a-24fb-47c6-8e28-ce4b44969b81" />
+
 
 
 ## API
