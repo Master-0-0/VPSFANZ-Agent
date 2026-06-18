@@ -1,4 +1,4 @@
-<img width="964" height="299" alt="image" src="https://github.com/user-attachments/assets/c45ae239-0894-4141-a73f-f101bbf1c5f5" /># VPS OSINT Agent
+# VPS OSINT Agent
 
 OSINT 情报查询系统，基于 **Fact-Intent Graph** 与 **Blackboard Architecture** 的智能推理引擎。
 
