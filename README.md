@@ -128,7 +128,8 @@ osint-agent delete <project_id> --force
 # 启动 Web UI（无需运行 agent，查看已有项目）
 osint-agent serve --port 8080
 ```
-<img width="1223" height="638" alt="image" src="https://github.com/user-attachments/assets/be7b4ee7-7c7d-4bda-b0d9-ba076b557ef2" />
+<img width="1190" height="494" alt="image" src="https://github.com/user-attachments/assets/f772aa6d-4eb8-4824-99ca-e811cdc76da8" />
+
 
 
 ### ipvps
@@ -158,7 +159,7 @@ ipvps report list                   # 列出所有历史报告
 ipvps report view <report_id>       # 查看指定报告详情
 ipvps report delete <report_id>     # 删除指定报告
 ```
-<img width="1209" height="378" alt="image" src="https://github.com/user-attachments/assets/5458ec65-2a6e-455e-b74e-267792953732" />
+
 
 
 ### vpsctl (统一入口)
@@ -188,7 +189,8 @@ vpsctl pipeline 120.27.154.229 --verbose
 # osint-agent 分步模式
 vpsctl pipeline 120.27.154.229 --step
 ```
-<img width="1200" height="381" alt="image" src="https://github.com/user-attachments/assets/04b462c3-2f65-459a-9fd6-90cb2208e880" />
+<img width="1209" height="459" alt="image" src="https://github.com/user-attachments/assets/66984833-b31f-4fcf-8797-fedfcc6aeb82" />
+
 
 ```
 python cli.py pipeline 120.27.154.229 --goal "找出安全相关人员情报"
