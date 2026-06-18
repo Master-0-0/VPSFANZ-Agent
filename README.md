@@ -1,4 +1,4 @@
-# VPS OSINT Agent
+<img width="964" height="299" alt="image" src="https://github.com/user-attachments/assets/c45ae239-0894-4141-a73f-f101bbf1c5f5" /># VPS OSINT Agent
 
 OSINT 情报查询系统，基于 **Fact-Intent Graph** 与 **Blackboard Architecture** 的智能推理引擎。
 
@@ -159,8 +159,7 @@ ipvps report list                   # 列出所有历史报告
 ipvps report view <report_id>       # 查看指定报告详情
 ipvps report delete <report_id>     # 删除指定报告
 ```
-
-
+<img width="1209" height="459" alt="image" src="https://github.com/user-attachments/assets/66984833-b31f-4fcf-8797-fedfcc6aeb82" />
 
 ### vpsctl (统一入口)
 
@@ -189,7 +188,10 @@ vpsctl pipeline 120.27.154.229 --verbose
 # osint-agent 分步模式
 vpsctl pipeline 120.27.154.229 --step
 ```
-<img width="1209" height="459" alt="image" src="https://github.com/user-attachments/assets/66984833-b31f-4fcf-8797-fedfcc6aeb82" />
+
+
+<img width="964" height="299" alt="image" src="https://github.com/user-attachments/assets/102cc0fb-6533-4235-b778-91e84e659d51" />
+
 
 
 ```
